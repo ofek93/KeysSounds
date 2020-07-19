@@ -6,8 +6,9 @@ var GameState = {
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 
     //have the game centered horizontally
-    this.scale.pageAlignHorizontally = true;
     this.scale.pageAlignVertically = true;
+        this.scale.pageAlignHorizontally = true;
+
     
   },
 
